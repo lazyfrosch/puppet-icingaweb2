@@ -1,7 +1,6 @@
 # == Class icingaweb2::config
 #
 class icingaweb2::config {
-  assert_private()
 
   @user { 'icingaweb2':
     ensure     => present,

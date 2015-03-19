@@ -1,7 +1,6 @@
 # == Class icingaweb2::install
 #
 class icingaweb2::install {
-  assert_private()
 
   if $::icingaweb2::install_method == 'package' {
     if $::icingaweb2::pkg_list {

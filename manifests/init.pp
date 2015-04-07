@@ -108,7 +108,7 @@
 #                         a number of dependencies.
 #                         Default: operating system specific.
 #
-# $pkg_pkg_repo_version::
+# $pkg_repo_version::
 #                         Options: release, snapshot.
 #                         Default: release.
 #
